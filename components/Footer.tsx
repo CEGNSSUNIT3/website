@@ -75,7 +75,7 @@ export default function Footer() {
             CEG · Anna University
           </p>
           <p style={{ color: '#64748b', fontFamily: 'Georgia,serif', fontSize: '0.85rem', lineHeight: '1.8', margin: 0 }}>
-            Nurturing responsible citizens through community service and social action since 1972.
+            Nurturing responsible citizens through community service and social actions.
           </p>
         </div>
 
@@ -129,7 +129,7 @@ export default function Footer() {
           </a>
 
           {/* LinkedIn */}
-          <a href="https://www.linkedin.com/company/ceg-nss-unit-3" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.linkedin.com/in/ceg-nss-unit-3-926894379/?originalSubdomain=in" target="_blank" rel="noopener noreferrer"
             style={{ display: 'flex', alignItems: 'center', gap: '12px', textDecoration: 'none' }}
             onMouseEnter={e => { (e.currentTarget.querySelector('.social-label') as HTMLElement).style.color = '#60a5fa'; }}
             onMouseLeave={e => { (e.currentTarget.querySelector('.social-label') as HTMLElement).style.color = '#64748b'; }}
